@@ -1,3 +1,4 @@
+package sort.Radix;
 import java.util.Arrays;
 
 public class radix_1 {
@@ -53,7 +54,7 @@ public class radix_1 {
     public static void main(String[] args) {
         int[] arr = {170, 45, 75, 90, 802, 24, 2, 66};
 
-        radixSort(arr);
+        radix_1(arr);
 
         System.out.println(Arrays.toString(arr));
     }
